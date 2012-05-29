@@ -1,5 +1,3 @@
-require 'lib/has_history.rb'
-
 # Array of attributes whose changes do not need to be saved to history
 # Defaults to [:updated_at, :updater_id, :created_at, :creator_id, :updated_on, :created_on]
 # HasHistory::History.ignore_attributes = [:updated_at, :updater_id, :created_at, :creator_id, :updated_on, :created_on]
